@@ -219,7 +219,6 @@
 				B8E0A9771AA7BD1800626EAD /* HomeView.m */,
 				B8AAA82F1AD8359100C04024 /* MainIngredients.h */,
 				B8AAA8301AD8359100C04024 /* MainIngredients.m */,
-				B84152371AE445B300B914BB /* Launch Screen.xib */,
 				B8D9F4261ADB7A9F003C7C21 /* ChooseRecipes.h */,
 				B841525A1AE69A6D00B914BB /* FinalViewController.h */,
 				B841525B1AE69A6D00B914BB /* FinalViewController.m */,
@@ -232,6 +231,7 @@
 				B8DCD3051A93101600522BF8 /* .DS_Store */,
 				B87A42C41A99848000642ED7 /* images */,
 				B8DCD2E71A92C88600522BF8 /* Main.storyboard */,
+				B84152371AE445B300B914BB /* Launch Screen.xib */,
 				B8DCD2EA1A92C88600522BF8 /* Images.xcassets */,
 				B8DCD2DD1A92C88600522BF8 /* Supporting Files */,
 			);

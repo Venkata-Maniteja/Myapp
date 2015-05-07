@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -225,17 +225,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Neo-KB-bUy">
-                                <rect key="frame" x="16" y="0.0" width="288" height="568"/>
+                                <rect key="frame" x="16" y="81" width="288" height="487"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0xK-wb-CRd">
                                         <rect key="frame" x="0.0" y="0.0" width="288" height="1965"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NkV-KL-fbk">
-                                                <rect key="frame" x="123" y="28" width="42" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTY-Hh-02f">
                                                 <rect key="frame" x="123" y="596" width="42" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -255,17 +249,25 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="0xK-wb-CRd" secondAttribute="trailing" id="MYq-j7-fcr"/>
-                                    <constraint firstAttribute="bottom" secondItem="0xK-wb-CRd" secondAttribute="bottom" id="N4c-YS-kyT"/>
+                                    <constraint firstAttribute="bottom" secondItem="0xK-wb-CRd" secondAttribute="bottom" constant="-1478" id="N4c-YS-kyT"/>
                                     <constraint firstItem="0xK-wb-CRd" firstAttribute="leading" secondItem="Neo-KB-bUy" secondAttribute="leading" id="sia-WG-GtH"/>
                                     <constraint firstItem="0xK-wb-CRd" firstAttribute="top" secondItem="Neo-KB-bUy" secondAttribute="top" id="vjh-O1-lBj"/>
                                 </constraints>
                             </scrollView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ohb-pC-8IV">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="cAi-LW-GQq">
+                                        <barButtonItem key="backBarButtonItem" title="Back" id="3j7-Mb-biB"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Neo-KB-bUy" firstAttribute="leading" secondItem="OOO-xF-HEA" secondAttribute="leadingMargin" id="CUm-GD-3yV"/>
                             <constraint firstItem="Neo-KB-bUy" firstAttribute="trailing" secondItem="OOO-xF-HEA" secondAttribute="trailingMargin" id="PfS-sS-fJL"/>
-                            <constraint firstItem="Neo-KB-bUy" firstAttribute="top" secondItem="mW7-Ha-faS" secondAttribute="bottom" id="q39-sx-bM6"/>
+                            <constraint firstItem="Neo-KB-bUy" firstAttribute="top" secondItem="mW7-Ha-faS" secondAttribute="bottom" constant="81" id="q39-sx-bM6"/>
                             <constraint firstItem="vsr-Bp-phd" firstAttribute="top" secondItem="Neo-KB-bUy" secondAttribute="bottom" id="qTo-xA-8K3"/>
                         </constraints>
                     </view>
